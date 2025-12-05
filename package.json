@@ -12,6 +12,7 @@
   "dependencies": {
     "@react-native/new-app-screen": "0.82.1",
     "@react-navigation/native": "^7.1.24",
+    "appwrite": "^21.5.0",
     "nativewind": "^4.2.1",
     "react": "19.1.1",
     "react-native": "0.82.1",
