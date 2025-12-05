@@ -73,3 +73,105 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Expo / Android / iOS builds
+.expo/
+.expo-shared/
+android/
+ios/
+build/
+*.keystore
+
+# Misc
+.env
+.env.*.local
+.vscode/
+.DS_Store
+*.log
+
+# -----------------------------
+# React Native / Node
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# If using Yarn or npm — choose one lockfile
+package-lock.json
+# yarn.lock       # (uncomment if you prefer not to commit yarn.lock)
+
+# -----------------------------
+# React Native: Android
+# -----------------------------
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+*.keystore
+*.jks
+
+# -----------------------------
+# React Native: iOS
+# -----------------------------
+ios/Pods/
+ios/build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+project.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# -----------------------------
+# Metro / Bundler
+# -----------------------------
+.expo/
+.expo-shared/
+.expo/web-build/
+.expo/dev/
+
+# -----------------------------
+# Environment / Secrets
+# -----------------------------
+.env
+.env.*.local
+.env.local
+.env.production
+.env.development
+
+# Appwrite secrets (if any)
+appwrite.json
+appwrite.env
+
+# -----------------------------
+# System / Editor Files
+# -----------------------------
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.log
+
+# -----------------------------
+# Watchman
+# -----------------------------
+.watchmanconfig
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.tmp
+*.temp
+coverage/
