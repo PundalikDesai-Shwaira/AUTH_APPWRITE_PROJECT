@@ -2,7 +2,7 @@ import { View, Text } from 'react-native'
 import React, { PropsWithChildren } from 'react'
 import App from '../App'
 
-impoort Appwrite from './service'
+import Appwrite from './service'
 
 type AppContextType = {
   appwrite: Appwrite;
